@@ -24,14 +24,13 @@ Individual Order Value, or IOV, is a new attribute introduced to the data, which
 
 #### (B) What metric would you report for this dataset?
 
-Based on the outliers detection, it is clear that there are two major sets at play here. While there are some general outliers that must be filtered out for accurate calculations, there is some data with order amounts over 200000 that are large enough in number to be its own category, possibly for large businesses. The other general data falls in a second category for regular businesses. The current filtering process can be used to categorize the data into two main sections, the first one representing 0.34% of the orders, for large businesses, and the second one representing 85.42% of the orders, for regular businesses.
+Based on the outliers detection, it is clear that there are two major sets at play here. While there are some general outliers that must be filtered out for accurate calculations, there is some data with order amounts over 200000 that are large enough in number to be its own category, possibly for large businesses. The other general data falls in a second category for regular businesses. The current filtering process can be used to categorize the data into two main sections, the first one representing 0.34% of the orders, for large businesses, and the second one representing 85.42% of the orders, for regular businesses. The mean of the order amounts for each of the categories represents its respective AOV. 
 
 <br>
 
 #### (C) What is its value?
 
-The description of the new data categories can now provide us with the correct AOVs. The means for each of the descriptions define the AOVs. The AOVs for each of the categories are:
-
+The description of the new data categories can now provide us with the correct AOVs. For each of the descriptions, the **means** define the AOVs. The AOVs for each of the categories are:
 - *Regular businesses*: \$293.50
 - *Large businesses*: \$704000.00
 
