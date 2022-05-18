@@ -5,6 +5,8 @@
 
 ## Question 1
 
+[Jupyter Notebook](problem-1-sneakers-analysis.ipynb)
+
 ### Provided data: 
 
 - Number of sneaker shops: **100**
